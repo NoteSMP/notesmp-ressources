@@ -35,3 +35,15 @@ The script extracts the JAR's `assets/minecraft/textures/` tree into the corresp
 ## Minecraft intellectual property
 
 Minecraft assets are Mojang/Microsoft property. Use and redistribute them only in accordance with the applicable Minecraft terms and policies.
+
+## Theme 2 interface frames
+
+The reusable Minecraft Dungeons-inspired menu frame assets live in `ui/theme-2/`:
+
+| Asset | Purpose |
+|---|---|
+| `frame-border.svg` | Bright ivory selected/hover frame with stepped pixel corners. |
+| `frame-border-muted.svg` | Muted blue-grey inactive frame. |
+| `frame-notch.svg` | Small centered top-frame ornament. |
+
+The website uses the border SVG as a CSS nine-slice border so the corner artwork remains intact while panels resize.
