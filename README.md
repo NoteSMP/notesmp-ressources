@@ -36,14 +36,12 @@ The script extracts the JAR's `assets/minecraft/textures/` tree into the corresp
 
 Minecraft assets are Mojang/Microsoft property. Use and redistribute them only in accordance with the applicable Minecraft terms and policies.
 
-## Theme 2 interface frames
+## Theme 2 interface frame
 
-The reusable Minecraft Dungeons-inspired menu frame assets live in `ui/theme-2/`:
+Theme 2 uses one user-supplied nine-slice PNG:
 
-| Asset | Purpose |
+| Asset | Details |
 |---|---|
-| `frame-border.svg` | Bright ivory selected/hover frame with stepped pixel corners. |
-| `frame-border-muted.svg` | Muted blue-grey inactive frame. |
-| `frame-notch.svg` | Small centered top-frame ornament. |
+| `ui/theme-2/frames/panel-9slice.png` | Exact 30×30 PNG; each of the nine slices is 10×10 pixels. |
 
-The website uses the border SVG as a CSS nine-slice border so the corner artwork remains intact while panels resize.
+The same asset frames the homepage hero and main section panels. Do not add alternate color variants, separate corner overlays or CSS-drawn ornaments. The website applies CSS `border-image` with a 10px slice and a 10px rendered border width.
