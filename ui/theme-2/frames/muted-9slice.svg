@@ -1,35 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
-  <defs>
-    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#D9E5EC"/>
-      <stop offset=".5" stop-color="#A9BBC7"/>
-      <stop offset="1" stop-color="#536A7D"/>
-    </linearGradient>
-  </defs>
-  <!-- Four protected corner regions. The center 32x32 region is transparent. -->
-  <g fill="none" stroke="url(#edge)" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M2 32V13H13V2H32 M2 22H8V8H22V2"/>
-    <path d="M64 2H83V13H94V32 M74 2V8H88V22H94"/>
-    <path d="M2 64V83H13V94H32 M2 74H8V88H22V94"/>
-    <path d="M64 94H83V83H94V64 M74 94V88H88V74H94"/>
+  <g fill="none" stroke="#A9BBC7" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M3 32V12H12V3H32 M3 22H8V8H22V3"/>
+    <path d="M64 3H84V12H93V32 M74 3V8H88V22H93"/>
+    <path d="M3 64V84H12V93H32 M3 74H8V88H22V93"/>
+    <path d="M64 93H84V84H93V64 M74 93V88H88V74H93"/>
+    <path d="M32 4H64 M32 8H64 M32 92H64 M32 88H64"/>
+    <path d="M4 32V64 M8 32V64 M92 32V64 M88 32V64"/>
   </g>
-  <!-- Pixel-cut corner jewels -->
-  <g fill="#536A7D" stroke="#A9BBC7" stroke-width="1">
-    <path d="M12 11H20V14H23V22H20V25H12V22H9V14H12Z"/>
-    <path d="M76 11H84V14H87V22H84V25H76V22H73V14H76Z"/>
-    <path d="M12 71H20V74H23V82H20V85H12V82H9V74H12Z"/>
-    <path d="M76 71H84V74H87V82H84V85H76V82H73V74H76Z"/>
+  <g fill="#536A7D" stroke="#A9BBC7" stroke-width="2">
+    <path d="M12 12H20V15H23V23H20V26H12V23H9V15H12Z"/>
+    <path d="M76 12H84V15H87V23H84V26H76V23H73V15H76Z"/>
+    <path d="M12 70H20V73H23V81H20V84H12V81H9V73H12Z"/>
+    <path d="M76 70H84V73H87V81H84V84H76V81H73V73H76Z"/>
   </g>
   <g fill="#D9E5EC">
     <rect x="14" y="15" width="4" height="4"/><rect x="78" y="15" width="4" height="4"/>
-    <rect x="14" y="75" width="4" height="4"/><rect x="78" y="75" width="4" height="4"/>
-  </g>
-  <!-- Middle slices: clean, continuous rails; the center slice stays empty. -->
-  <g fill="none" stroke="url(#edge)" stroke-width="2">
-    <path d="M32 2H64 M32 5H64 M32 94H64 M32 91H64"/>
-    <path d="M2 32V64 M5 32V64 M94 32V64 M91 32V64"/>
-  </g>
-  <g fill="none" stroke="#536A7D" stroke-width="1" opacity=".7">
-    <path d="M36 7H60 M36 89H60 M7 36V60 M89 36V60"/>
+    <rect x="14" y="73" width="4" height="4"/><rect x="78" y="73" width="4" height="4"/>
   </g>
 </svg>
