@@ -1,10 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="none" stroke="#71839A" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" opacity=".78">
-    <path d="M1 14V1H14 M1 7H7V1 M7 14V7H14"/>
-    <path d="M50 1H63V14 M57 1V7H63 M50 7H57V14"/>
-    <path d="M1 50V63H14 M1 57H7V63 M7 50V57H14"/>
-    <path d="M50 63H63V50 M57 63V57H63 M50 57H57V50"/>
-    <path d="M14 1H50 M1 14V50 M63 14V50 M14 63H50"/>
-    <path d="M17 4H47 M4 17V47 M60 17V47 M17 60H47" opacity=".32"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+ <defs>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A8B7B7"/><stop offset=".48" stop-color="#536D68"/><stop offset="1" stop-color="#A8B7B7"/></linearGradient>
+ </defs>
+ <g fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <path stroke="url(#metal)" stroke-width="4" d="M2 34V2H34 M2 14H14V2 M14 34V14H34 M94 2H126V34 M114 2V14H126 M94 14H114V34 M2 94V126H34 M2 114H14V126 M14 94V114H34 M94 126H126V94 M114 126V114H126 M94 114H114V94"/>
+  <path stroke="#A8B7B7" stroke-width="2" d="M34 5H94 M5 34V94 M123 34V94 M34 123H94"/>
+  <path stroke="#83A69A" stroke-width="2" d="M8 8H26V14H14V26H8Z M102 8H120V26H114V14H102Z M8 102H14V114H26V120H8Z M120 102H114V114H102V120H120Z"/>
+  <path stroke="#536D68" stroke-width="2" d="M18 18H30V30 M98 18H110V30 M18 98V110H30 M98 110H110V98"/>
+ </g>
+ <g fill="#83A69A">
+  <rect x="28" y="3" width="6" height="4"/><rect x="3" y="28" width="4" height="6"/>
+  <rect x="94" y="3" width="6" height="4"/><rect x="121" y="28" width="4" height="6"/>
+  <rect x="3" y="94" width="4" height="6"/><rect x="28" y="121" width="6" height="4"/>
+  <rect x="121" y="94" width="4" height="6"/><rect x="94" y="121" width="6" height="4"/>
+ </g>
 </svg>
