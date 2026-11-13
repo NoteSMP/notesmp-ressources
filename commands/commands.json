@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "Vanilla",
+      "category": "Minecraft Java Edition",
+      "source": "NATIVE",
+      "commands": [
+        {
+          "command": "/help",
+          "description": "Show available commands. The list depends on your permissions and installed server plugins."
+        },
+        {
+          "command": "/msg <player> <message>",
+          "description": "Send a private message to another player."
+        },
+        {
+          "command": "/tell <player> <message>",
+          "description": "Vanilla alias for sending a private message."
+        },
+        {
+          "command": "/w <player> <message>",
+          "description": "Vanilla alias for sending a private message."
+        },
+        {
+          "command": "/teammsg <message>",
+          "description": "Send a message to your current team, when teams are enabled."
+        },
+        {
+          "command": "/me <action>",
+          "description": "Send a third-person action message in chat."
+        }
+      ]
+    },
+    {
+      "name": "GSit",
+      "category": "Plugin commands",
+      "source": "PLUGIN",
+      "commands": [
+        {
+          "command": "/sit",
+          "description": "Sit on the block or seat in front of you."
+        },
+        {
+          "command": "/crawl",
+          "description": "Crawl along the ground."
+        },
+        {
+          "command": "/lay",
+          "description": "Lie down in place."
+        },
+        {
+          "command": "/spin",
+          "description": "Spin in place."
+        }
+      ]
+    }
+  ]
+}
