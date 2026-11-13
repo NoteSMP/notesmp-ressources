@@ -15,6 +15,28 @@ Shared static assets and tools used by the NoteSMP website and related projects.
 
 The website can reference these assets from the repository's raw/CDN hosting URL. Keep paths stable when assets are already used by the website.
 
+## Website command catalogue
+
+The website's `/commands` page loads its command groups from
+[`commands/commands.json`](commands/commands.json) in this repository. Edit this
+file to add, change or remove plugins and commands; no website code change is
+needed for catalogue content updates.
+
+Each entry in `groups` represents one section on the page:
+
+- `name`: plugin or command-group name shown as the heading.
+- `category`: small category label above the heading.
+- `source`: short source label, such as `PLUGIN` or `NATIVE`.
+- `commands`: list of command entries.
+  - `command`: command syntax shown on the page.
+  - `description`: explanation shown below the command.
+
+To add a plugin, copy a group object and add it to `groups`. Add or remove
+objects inside its `commands` array as needed. Keep the file valid JSON:
+use double quotes, separate array items with commas, and do not add comments or
+trailing commas. Changes are fetched directly from the `main` branch when the
+Commands page is opened.
+
 ## Extracting Minecraft client textures
 
 The texture extraction utility is available for version-pinned client assets. Download the official Minecraft Java client JAR for the target version, then run:
